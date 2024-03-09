@@ -1,0 +1,24 @@
+<div class="wrapper">
+
+    <div class="block">
+   
+       
+         <form [formGroup]="register">
+
+               <h3>REGISTER</h3>
+               <input type="text" placeholder="Enter Fname" class="inp" formControlName="Fname"/>
+               <input type="text" placeholder="Enter Lname" class="inp" formControlName="Lname"/>
+               <input type="Mobile" placeholder="Enter Mobile" class="inp" formControlName="Mobile"/>
+               <input type="email" placeholder="Enter Email" class="inp" formControlName="email"/>
+               <input type="password" placeholder="Enter password" class="inp" formControlName="password"/>
+   
+               <div class="btns">
+                   <button (click)="registerSubmit()">SignUp</button>
+                   <button (click)="gotoLogin()">Login</button>
+               </div>
+   
+         </form>
+    </div>
+   
+   </div>
+   
